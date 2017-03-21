@@ -3,14 +3,20 @@ Tarea 4
 Fredy Benavides Gordillo
 21/03/2017
 
-#### Ejecutar por consola #### 
+
+
+#### Ejecutar por consola ####
+ 
 Descargar de repositorio git:
 	> git clone https://github.com/fbenavidesg/psp_programa4.git
     > cd psp_programa4
 	> mvn package
 	> java -cp target/pspProgram4.jar edu.uniandes.ecos.controller.App console
 	
+	
+	
 ####heroku####
+
 https://pacific-tundra-51026.herokuapp.com/
 
 #Usando valores enviados por get
