@@ -1,40 +1,17 @@
-# java-getting-started
+CSOF5101 CONCEPTOS AVANZADOS EN INGENIERÍA DE SOFTWARE
+Tarea 4
+Fredy Benavides Gordillo
+21/03/2017
 
-A barebones Java app, which can easily be deployed to Heroku.
+#### Ejecutar por consola #### 
+Descargar de repositorio git:
+	> git clone https://github.com/fbenavidesg/psp_programa4.git
+    > cd psp_programa4
+	> mvn package
+	> java -cp target/pspProgram4.jar edu.uniandes.ecos.controller.App console
+	
+####heroku####
+https://pacific-tundra-51026.herokuapp.com/
 
-This application supports the [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java) article - check it out.
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Running Locally
-
-Make sure you have Java and Maven installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
-
-```sh
-$ git clone https://github.com/heroku/java-getting-started.git
-$ cd java-getting-started
-$ mvn install
-$ heroku local:start
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-If you're going to use a database, ensure you have a local `.env` file that reads something like this:
-
-```
-DATABASE_URL=postgres://localhost:5432/java_database_name
-```
-
-## Deploying to Heroku
-
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-## Documentation
-
-For more information about using Java on Heroku, see these Dev Center articles:
-
-- [Java on Heroku](https://devcenter.heroku.com/categories/java)
+#Usando valores enviados por get
+https://pacific-tundra-51026.herokuapp.com/?valores=6.0000;6.0000;8.3333;10.3333;12.3333;16.4000;20.5000;21.7500;22.2500;23.0000;28.3333;29.0000;55.8000
