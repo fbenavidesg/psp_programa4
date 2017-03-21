@@ -2,7 +2,7 @@
 /* Programa ID: PSP_TAREA4                                                    */
 /* Autor: Fredy Benavides                                                     */
 /* Fecha: 20/03/2017                                                          */
-/* Descripción: Programa realiza calculo de rangos por desviacion estandar    */
+/* Descripcion: Programa realiza calculo de rangos por desviacion estandar    */
 /*                                                                            */
 /******************************************************************************/
 package edu.uniandes.ecos.controller;
